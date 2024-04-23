@@ -1,0 +1,162 @@
+/* Estilo geral */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 20px;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Barra de Pesquisa */
+
+header form {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+}
+
+header input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+header button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Categorias de Ajuda */
+
+.categorias-ajuda ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categorias-ajuda li {
+    margin-bottom: 10px;
+}
+
+.categorias-ajuda a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Perguntas Frequentes (FAQ) */
+
+.faq .accordion details {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.faq .accordion summary {
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px 0 0 5px;
+}
+
+.faq .accordion summary:hover {
+    background-color: #e8e8e8;
+}
+
+.faq .accordion p {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Formulário de Contato */
+
+.contato form {
+    width: 600px;
+}
+
+.contato label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contato input[type="text"],
+.contato input[type="email"],
+.contato select,
+.contato textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.contato textarea {
+    height: 150px;
+}
+
+.contato button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Redes Sociais */
+
+.redes-sociais {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.redes-sociais a:hover {
+    color: #000;
+}
+
+/* Chat ao Vivo */
+
+.chat-ao-vivo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.chat-ao-vivo h3 {
+    color: #333
+}
