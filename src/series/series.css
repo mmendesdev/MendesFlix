@@ -1,4 +1,11 @@
-* {
+#bg-dark {
     background-color: black;
 }
 
+h1 {
+    color: beige;
+}
+
+.bg-ora {
+    background-color: black;
+}
